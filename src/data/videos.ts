@@ -7,21 +7,21 @@ export interface ClientVideo {
 
 export const clientVideos: ClientVideo[] = [
   {
-    name: "Merci pour votre confiance Dinese",
+    name: "Merci pour votre confiance Shenseea",
     description: "Découvrez l'expérience de notre cliente.",
-    image: "dinese.webp",
-    facebookUrl: "https://www.facebook.com/VIDEO-1",
+    image: "video1.webp",
+    facebookUrl: "https://www.facebook.com/reel/27818769901140236?locale=fr_FR",
   },
   {
     name: "Beauté & satisfaction",
     description: "Une cliente partage son expérience.",
     image: "video2.webp",
-    facebookUrl: "https://www.facebook.com/reel/1040682785477672?locale=fr_FR",
+    facebookUrl: "https://www.facebook.com/reel/1404421215095007?locale=fr_FR",
   },
   {
     name: "Une cliente conquise",
-    description: "Découvrez son expérience chez Vanesa Bauté.",
+    description: "Découvrez son expérience chez DOKOHELY Boutique of Quality.",
     image: "video3.webp",
-    facebookUrl: "https://www.facebook.com/reel/2540626459734509?locale=fr_FR",
+    facebookUrl: "https://www.facebook.com/reel/4508738839453074?locale=fr_FR",
   },
 ];

@@ -18,7 +18,7 @@ export const galleryItems: GalleryItem[] = [
     title: "Coupe élégante",
     category: "Coiffure",
     image:
-      "galary1.webp",
+      "galery1.webp",
   },
   {
     id: 2,

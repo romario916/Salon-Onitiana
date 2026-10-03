@@ -19,7 +19,7 @@ export const getContactFormMessage = (
   phone: string,
   message: string
 ): string => {
-  return `Bonjour Vanesa Bauté,
+  return `Bonjour DOKOHELY Boutique of Quality,
 
 Je vous contacte depuis votre site internet.
 

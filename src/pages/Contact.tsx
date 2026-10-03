@@ -437,7 +437,7 @@ const Contact = () => {
 
             <p className="mt-5 text-base leading-8 text-white/80">
               Écrivez-nous directement sur WhatsApp pour réserver votre
-              moment chez Vanesa Bauté.
+              moment chez DOKOHELY.
             </p>
 
             <button

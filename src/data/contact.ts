@@ -9,18 +9,18 @@ export interface OpeningHour {
 }
 
 export const contact = {
-  salonName: "Vanesa Bauté",
+  salonName: "DOKOHELY Boutique of Quality",
 
   whatsapp: "261378911098",
 
-  phone: "037 89 110 98",
+  phone: "032 86 479 63",
 
   email: "romarhenry08@gmail.com",
 
-  address: "Antananarivo, Madagascar",
+  address: "Antananarivo, Ambohipo",
 
   defaultWhatsAppMessage:
-    "Bonjour Vanesa Bauté, je souhaite prendre rendez-vous. Pouvez-vous me renseigner sur les disponibilités ?",
+    "Bonjour DOKOHELY, je souhaite prendre rendez-vous. Pouvez-vous me renseigner sur les disponibilités ?",
 
   openingHours: [
     {

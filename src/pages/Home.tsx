@@ -272,8 +272,8 @@ const Home = () => {
             <div className="relative">
               <div className="overflow-hidden rounded-3xl">
                <img
-  src="/dinese2.webp"
-  alt="Espace beauté Vanesa Bauté"
+  src="acail3.webp"
+  alt="Espace beauté DOKOHELY Boutique of Quality"
   className="h-auto w-full object-contain"
 />
               </div>
@@ -299,7 +299,7 @@ const Home = () => {
               </h2>
 
               <p className="mt-6 leading-8 text-neutral-600">
-                Vanesa Bauté est un espace dédié à la beauté et au
+                DOKOHELY Boutique of Quality est un espace dédié à la beauté et au
                 bien-être. Notre équipe vous accompagne avec attention
                 pour créer une expérience adaptée à votre personnalité,
                 votre style et vos envies.
@@ -324,7 +324,7 @@ const Home = () => {
         </Container>
       </section>
 
-// CLIENT VIDEOS
+      {/* TEMOIGNAGES VIDEO */}
       <section className="bg-neutral-50 py-24 lg:py-32">
         <Container>
           <SectionTitle

@@ -187,7 +187,7 @@ const Products = () => {
         <Container>
           <div className="text-center">
             <SectionTitle
-              eyebrow="Vanesa Bauté"
+              eyebrow="DOKOHELY Boutique of Quality"
               title="Découvrez nos produits au salon"
               description="Les disponibilités peuvent varier. Contactez-nous sur WhatsApp avant de vous déplacer."
               light

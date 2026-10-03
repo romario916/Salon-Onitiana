@@ -26,7 +26,7 @@ const Footer = () => {
           <div>
             <Link to="/" className="inline-block">
               <p className="font-serif text-3xl font-bold">
-                Vanesa <span className="text-pink-600">Bauté</span>
+                DOKOHELY <span className="text-pink-600">Boutique of Quality</span>
               </p>
 
               <p className="mt-1 text-[10px] uppercase tracking-[0.3em] text-white/40">
@@ -163,8 +163,15 @@ const Footer = () => {
         <div className="mt-14 border-t border-white/10 pt-6">
           <div className="flex flex-col items-center justify-between gap-4 text-center sm:flex-row sm:text-left">
             <p className="text-xs text-white/40">
-              © {new Date().getFullYear()} Vanesa Bauté. Tous droits
-              réservés.
+             Cette site est développée par {"RAKOTOVAO Henry Romario  PDG "}
+              <a
+                href="https://www.facebook.com/profile.php?id=61594460594713&locale=fr_FR"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-pink-500 hover:text-pink-600"
+              >
+                RoTech Web
+              </a>
             </p>
 
             <div className="flex gap-5 text-xs text-white/40">
@@ -172,14 +179,14 @@ const Footer = () => {
                 to="/"
                 className="transition hover:text-pink-500"
               >
-                Mentions légales
+                037 33 621 72
               </Link>
 
               <Link
                 to="/contact"
                 className="transition hover:text-pink-500"
               >
-                Contact
+                Facebook: Ro Mar
               </Link>
             </div>
           </div>

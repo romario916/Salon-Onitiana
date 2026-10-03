@@ -156,8 +156,8 @@ const Gallery = () => {
           <div className="grid items-center gap-12 lg:grid-cols-2">
             <div className="overflow-hidden rounded-3xl">
               <img
-                src="galeryb.webp"
-                alt="Salon Vanesa Bauté"
+                src="galery15.webp"
+                alt="Salon DOKOHELY Boutique of Quality"
                 className="h-[450px] w-full object-contain transition duration-700 hover:scale-110"
               />
             </div>

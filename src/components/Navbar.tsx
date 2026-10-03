@@ -56,7 +56,7 @@ const Navbar = () => {
                   scrolled ? "text-black" : "text-white"
                 }`}
               >
-                Vanesa <span className="text-pink-600">Bauté</span>
+                DOKOHELY <span className="text-pink-600">Boutique of Quality</span>
               </p>
 
               <p
