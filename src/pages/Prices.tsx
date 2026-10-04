@@ -19,11 +19,11 @@ const categories: Array<
   ServiceCategory | "Toutes"
 > = [
   "Toutes",
-  "Coiffure",
-  "Coloration",
-  "Soins",
-  "Coiffure événementielle",
-  "Beauté",
+  "Blanc",
+  "Rose",
+  "Noir",
+  "Jaune",
+  "Autres",
 ];
 
 const Pricing = () => {
