@@ -26,7 +26,7 @@ const Footer = () => {
           <div>
             <Link to="/" className="inline-block">
               <p className="font-serif text-3xl font-bold">
-                DOKOHELY <span className="text-pink-600">Boutique of Quality</span>
+                Salon de Beauté <span className="text-pink-600">Onitiana</span>
               </p>
 
               <p className="mt-1 text-[10px] uppercase tracking-[0.3em] text-white/40">

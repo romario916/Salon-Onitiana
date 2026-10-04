@@ -9,18 +9,18 @@ export interface OpeningHour {
 }
 
 export const contact = {
-  salonName: "DOKOHELY Boutique of Quality",
+  salonName: "Salon de Beauté Onitiana",
 
   whatsapp: "261378911098",
 
-  phone: "032 86 479 63",
+  phone: "034 05 021 65",
 
-  email: "romarhenry08@gmail.com",
+  email: "onivolarasoa@gmail.com",
 
-  address: "Antananarivo, Ambohipo",
+  address: "Antananarivo, Besarety tany malalaka",
 
   defaultWhatsAppMessage:
-    "Bonjour DOKOHELY, je souhaite prendre rendez-vous. Pouvez-vous me renseigner sur les disponibilités ?",
+    "Bonjour Salon de Beauté Onitiana, je souhaite prendre rendez-vous. Pouvez-vous me renseigner sur les disponibilités ?",
 
   openingHours: [
     {

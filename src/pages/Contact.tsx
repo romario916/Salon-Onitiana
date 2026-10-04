@@ -368,7 +368,7 @@ const Contact = () => {
           <SectionTitle
             eyebrow="Nous trouver"
             title="Venez nous rendre visite"
-            description="Retrouvez Vanesa Bauté à notre adresse."
+            description="Retrouvez Salon de Beauté Onitiana à notre adresse."
           />
 
           <div className="mt-10 overflow-hidden rounded-3xl border border-neutral-100 shadow-sm">

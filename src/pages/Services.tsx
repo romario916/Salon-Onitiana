@@ -25,24 +25,25 @@ const categories: Array<{
     value: "Tous",
   },
   {
-    name: "Coiffure",
-    value: "Coiffure",
+    name: "Blanc",
+    value: "Blanc",
   },
   {
-    name: "Coloration",
-    value: "Coloration",
+    name: "Rose",
+    value: "Rose",
+  },
+  
+  {
+    name: "Noir",
+    value: "Noir",
   },
   {
-    name: "Soins",
-    value: "Soins",
+    name: "Jaune",
+    value: "Jaune",
   },
   {
-    name: "Événement",
-    value: "Coiffure événementielle",
-  },
-  {
-    name: "Beauté",
-    value: "Beauté",
+    name: "Autres",
+    value: "Autres",
   },
 ];
 
@@ -50,15 +51,15 @@ const categoryDescriptions: Record<
   ServiceCategory,
   string
 > = {
-  Coiffure:
+  Blanc:
     "Des coiffures personnalisées pour révéler votre style et votre personnalité.",
-  Coloration:
+  Rose:
     "Des techniques professionnelles pour apporter lumière, profondeur et caractère.",
-  Soins:
+  Noir:
     "Des soins ciblés pour prendre soin de vos cheveux et leur redonner leur éclat.",
-  "Coiffure événementielle":
+  Jaune:
     "Des coiffures élégantes pour vos mariages, cérémonies et occasions spéciales.",
-  Beauté:
+  Autres:
     "Des prestations beauté pour prendre soin de vous jusque dans les moindres détails.",
 };
 

@@ -12,11 +12,11 @@ import { openWhatsApp } from "../utils/whatsapp";
 
 const categories: Array<GalleryCategory | "Toutes"> = [
   "Toutes",
-  "Coiffure",
-  "Coloration",
-  "Soins",
-  "Mariage",
-  "Beauté",
+  "Blanc",
+  "Rose",
+  "Orange",
+  "Jaune",
+  "Autres",
 ];
 
 const Gallery = () => {
@@ -54,7 +54,7 @@ const Gallery = () => {
 
             <p className="mx-auto mt-6 max-w-2xl text-base leading-8 text-white/60 sm:text-lg">
               Découvrez quelques inspirations et réalisations qui
-              reflètent l'univers de Vanesa Bauté.
+              reflètent l'univers de Salon de Beauté Onitiana.
             </p>
           </div>
         </Container>
@@ -156,7 +156,7 @@ const Gallery = () => {
           <div className="grid items-center gap-12 lg:grid-cols-2">
             <div className="overflow-hidden rounded-3xl">
               <img
-                src="galery15.webp"
+                src="galery7.webp"
                 alt="Salon DOKOHELY Boutique of Quality"
                 className="h-[450px] w-full object-contain transition duration-700 hover:scale-110"
               />
@@ -225,7 +225,7 @@ const Gallery = () => {
 
             <p className="mt-5 text-base leading-8 text-white/60">
               Contactez-nous directement pour discuter de votre projet
-              beauté et réserver votre moment chez Vanesa Bauté.
+              beauté et réserver votre moment chez Salon de Beauté Onitiana.
             </p>
 
             <button

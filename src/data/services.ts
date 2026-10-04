@@ -1,9 +1,9 @@
 export type ServiceCategory =
-  | "Coiffure"
-  | "Coloration"
-  | "Soins"
-  | "Coiffure événementielle"
-  | "Beauté";
+  | "Blanc"
+  | "Rose"
+  | "Noir"
+  | "Jaune"
+  | "Autres";
 
 export interface Service {
   id: number;
@@ -18,25 +18,36 @@ export interface Service {
 export const services: Service[] = [
   {
     id: 1,
-    name: "Coupe & Brushing",
+    name: "Couleur blonde",
     description:
       "Une coupe personnalisée accompagnée d'un brushing soigné pour mettre votre style en valeur.",
     duration: "45 min",
     price: 35000,
-    category: "Coiffure",
+    category: "Blanc",
     image:
-      "coiffure.webp",
+      "blanc1.webp",
+  },
+   {
+    id: 2,
+    name: "Couleur blonde elegante",
+    description:
+      "Une coupe personnalisée accompagnée d'un brushing soigné pour mettre votre style en valeur.",
+    duration: "45 min",
+    price: 35000,
+    category: "Blanc",
+    image:
+      "blanc2.webp",
   },
   {
-    id: 2,
-    name: "Brushing",
+    id: 3,
+    name: "Couleur blonde  moderne",
     description:
       "Un brushing professionnel pour une chevelure souple, brillante et parfaitement coiffée.",
     duration: "30 min",
     price: 25000,
-    category: "Coiffure",
+    category: "Blanc",
     image:
-      "coiffure1.webp",
+      "blanc3.webp",
   },
   
   {
@@ -46,9 +57,9 @@ export const services: Service[] = [
       "Une coloration personnalisée pour apporter profondeur, luminosité et caractère à votre chevelure.",
     duration: "1h30",
     price: 85000,
-    category: "Coloration",
+    category: "Rose",
     image:
-      "coloration.webp",
+      "rose1.webp",
   },
   {
     id: 5,
@@ -57,11 +68,21 @@ export const services: Service[] = [
       "Des nuances lumineuses et naturelles pour donner du relief et de la dimension aux cheveux.",
     duration: "2h",
     price: 120000,
-    category: "Coloration",
+    category: "Rose",
     image:
-      "coloration1.webp",
+      "rose2.webp",
   },
-  
+  {
+    id: 6,
+    name: "Balayage",
+    description:
+      "Des nuances lumineuses et naturelles pour donner du relief et de la dimension aux cheveux.",
+    duration: "2h",
+    price: 120000,
+    category: "Rose",
+    image:
+      "rose2.webp",
+  },
 
   {
     id: 7,
@@ -70,9 +91,9 @@ export const services: Service[] = [
       "Un soin professionnel pour nourrir, hydrater et revitaliser les cheveux en profondeur.",
     duration: "45 min",
     price: 45000,
-    category: "Soins",
+    category: "Noir",
     image:
-      "soin.webp",
+      "noir1.webp",
   },
   {
     id: 8,
@@ -81,23 +102,35 @@ export const services: Service[] = [
       "Un rituel hydratant pour retrouver des cheveux plus souples, doux et brillants.",
     duration: "30 min",
     price: 35000,
-    category: "Soins",
+    category: "Noir",
     image:
-      "soin1.webp",
+      "noir2.webp",
   },
   
 
   {
-    id: 10,
+    id: 9,
     name: "Coiffure mariage",
     description:
       "Une coiffure élégante et personnalisée pour accompagner votre journée exceptionnelle.",
     duration: "1h30",
     price: 120000,
-    category: "Coiffure événementielle",
+    category: "Jaune",
     image:
-      "even.webp",
+      "jaune1.webp",
   },
+  {
+    id: 10,
+    name: "Coiffure événement",
+    description:
+      "Une mise en beauté raffinée pour vos cérémonies, fêtes et événements importants.",
+    duration: "1h",
+    price: 80000,
+    category: "Jaune",
+    image:
+      "jaune2.webp",
+  },
+
   {
     id: 11,
     name: "Coiffure événement",
@@ -105,32 +138,68 @@ export const services: Service[] = [
       "Une mise en beauté raffinée pour vos cérémonies, fêtes et événements importants.",
     duration: "1h",
     price: 80000,
-    category: "Coiffure événementielle",
+    category: "Jaune",
     image:
-      "even1.webp",
+      "jaune3.webp",
   },
 
   {
     id: 12,
+    name: "Coiffure événement",
+    description:
+      "Une mise en beauté raffinée pour vos cérémonies, fêtes et événements importants.",
+    duration: "1h",
+    price: 80000,
+    category: "Jaune",
+    image:
+      "jaune4.webp",
+  },
+
+  {
+    id: 13,
     name: "Manucure",
     description:
       "Un soin complet des mains et des ongles pour une finition propre et élégante.",
     duration: "45 min",
     price: 30000,
-    category: "Beauté",
+    category: "Autres",
     image:
-      "beaute.webp",
+      "autre1.webp",
   },
   {
-    id: 13,
+    id: 14,
     name: "Beauté des ongles",
     description:
       "Une prestation dédiée à la beauté et à la finition de vos ongles.",
     duration: "1h",
     price: 45000,
-    category: "Beauté",
+    category: "Autres",
     image:
-      "beaute1.webp",
+      "autre2.webp",
+  },
+
+   {
+    id: 15,
+    name: "Beauté des ongles",
+    description:
+      "Une prestation dédiée à la beauté et à la finition de vos ongles.",
+    duration: "1h",
+    price: 45000,
+    category: "Autres",
+    image:
+      "autre3.webp",
+  },
+
+   {
+    id: 16,
+    name: "Beauté des ongles",
+    description:
+      "Une prestation dédiée à la beauté et à la finition de vos ongles.",
+    duration: "1h",
+    price: 45000,
+    category: "Autres",
+    image:
+      "autre4.webp",
   },
   
 ];

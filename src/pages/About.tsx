@@ -61,7 +61,7 @@ const About = () => {
             </p>
 
             <h1 className="mt-3 font-serif text-5xl font-bold text-white sm:text-6xl">
-              À propos de DOKOHELY Boutique of Quality
+              À propos de Salon de Beauté Onitiana
             </h1>
 
             <p className="mx-auto mt-6 max-w-2xl text-base leading-8 text-white/60 sm:text-lg">
@@ -89,11 +89,11 @@ const About = () => {
               {/* Badge */}
               <div className="absolute -bottom-6 right-6 rounded-3xl bg-black p-6 shadow-2xl sm:right-10">
                 <p className="font-serif text-3xl font-bold text-white">
-                  DOKOHELY <span className="text-pink-600">Boutique of Quality</span>
+                  Salon de Beauté <span className="text-pink-600">Onitiana</span>
                 </p>
 
                 <p className="mt-1 text-xs uppercase tracking-[0.2em] text-pink-400">
-                  Bauté
+                  Onitiana
                 </p>
               </div>
             </div>
@@ -110,7 +110,7 @@ const About = () => {
 
               <div className="mt-6 space-y-5 text-base leading-8 text-neutral-600">
                 <p>
-                  DOKOHELY est né d'une envie simple : créer un
+                  Salon de Beauté Onitiana est né d'une envie simple : créer un
                   espace chaleureux où chaque personne peut prendre le
                   temps de prendre soin d'elle.
                 </p>

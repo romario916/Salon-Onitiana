@@ -10,18 +10,18 @@ export const clientVideos: ClientVideo[] = [
     name: "Merci pour votre confiance Shenseea",
     description: "Découvrez l'expérience de notre cliente.",
     image: "video1.webp",
-    facebookUrl: "https://www.facebook.com/reel/27818769901140236?locale=fr_FR",
+    facebookUrl: "https://www.facebook.com/reel/1484189517104047",
   },
   {
     name: "Beauté & satisfaction",
     description: "Une cliente partage son expérience.",
     image: "video2.webp",
-    facebookUrl: "https://www.facebook.com/reel/1404421215095007?locale=fr_FR",
+    facebookUrl: "https://www.facebook.com/reel/1563254101731203",
   },
   {
     name: "Une cliente conquise",
-    description: "Découvrez son expérience chez DOKOHELY Boutique of Quality.",
+    description: "Découvrez son expérience chez Salon de Beauté Onitiana.",
     image: "video3.webp",
-    facebookUrl: "https://www.facebook.com/reel/4508738839453074?locale=fr_FR",
+    facebookUrl: "https://www.facebook.com/reel/1953181185638610",
   },
 ];
